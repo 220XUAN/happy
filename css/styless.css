@@ -17,9 +17,9 @@ body {
 */
 .bg {
   width: 100%;
-  background: #ee9ca7;
-  background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
-  background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
+  background: rgb(190, 144, 211);
+  background: -webkit-linear-gradient(top rgb(190, 144, 211) 0%, rgb(190, 144, 211) 100%);
+  background: linear-gradient(to bottom , rgb(190, 144, 211) 0%, rgb(190, 144, 211) 100%);
 }
 .velas {
   background: #ffffff;
@@ -99,9 +99,9 @@ body {
 */
 @-webkit-keyframes fuego {
   0%, 100% {
-    background: rgba(254, 248, 97, 0.5);
-    -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+    background: rgba(194, 97, 230, 0.5);
+    -webkit-box-shadow: 0 0 40px 10px rgba(246, 221, 183, 0.2);
+    box-shadow: 0 0 40px 10px rgba(119, 184, 193, 0.2);
     -webkit-transform: translateY(0) scale(1);
     transform: translateY(0) scale(1);
   }
